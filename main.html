@@ -8,23 +8,33 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<nav>
-		<a href="#list-items">list</a>
-	</nav>
 	<header>
-		<h1>My Portfolio</h1>
+		<h1 role="heading">My Portfolio</h1>
+		<nav role="navigation">
+			<ul>
+				<li><a href="#about">About</a></li>
+				<li><a href="#project">Project</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
 	</header>
-	<section>
-		<img alt="coder" height="300px" src="https://images.unsplash.com/photo-1551583899-d3f6258ec7c9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGNvZGVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60">
-	</section>
-	<section>
-		<h2 id="list-items">List items</h2>
-		<ul>
-			<li>html</li>
-			<li>css</li>
-			<li>js</li>
-		</ul>
-	</section>
+
+	<main>
+		<section id="about">
+			<img role="img" alt="coder-img" src="https://images.unsplash.com/photo-1551583899-d3f6258ec7c9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGNvZGVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60">
+		    <p>I am a full stack developer and i am proficient in javascript/typescript.</p>
+		</section>
+		<section id="project">
+			<ul role="list">
+				<li role="listitem">HTML</li>
+				<li role="listitem">CSS</li>
+				<li role="listitem">JS</li>
+			</ul>
+		</section>
+		<footer id="contact">
+			<p>connect with me: <a href="mailto:debasishnayak0739@gmail.com">connect</a></p>
+		</footer>
+	</main>
 	
     <script type="text/javascript" src="./script.js">
 </script>
